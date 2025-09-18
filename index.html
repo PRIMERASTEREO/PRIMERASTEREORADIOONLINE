@@ -68,12 +68,12 @@ html,body{font-family:"Open Sans",sans-serif;height:100%;margin:0;display:flex;f
 $("#player").lunaradio({
 token: "",
 userinterface: "big", //big o small
-backgroundcolor: "#000000",
+backgroundcolor: "",
 fontcolor: "#FFFFFF",
 hightlightcolor: "#085b96", 
-fontname: "Unica One",
-googlefont: "Unica+One&display=swap", 
-fontratio: "0.6", 
+fontname: "Space Grotesk",
+googlefont: "Space Grotesk", 
+fontratio: "0.4", 
 radioname: "PRIMERA STEREO Radio Online", //nombre de radio
 scroll: "true",
 autoplay: "true", 
@@ -87,14 +87,18 @@ color1: "#e66c35",
 color2: "#d04345",
 color3: "#85a752",
 color4: "#067dcc",
-visualizeropacity: "1.0",
-usestreamcorsproxy: "true", //true o false
+visualizeropacity: "3.0",
+itunestoken: "1000lIPN",  
+usestreamcorsproxy: "false", //true o false
 corsproxy: "", 
-streamurl:"http://usa7.fastcast4u.com:5388", 
-streamtype: "shoutcast2", //centova, icecast2, radiozeno, radionomy, radiojar, radioco
+streamurl:"https://stream.zeno.fm/u6cbawcdkcxvv", 
+streamtype: "zeno", 
+radiozeno: "u6cbawcdkcxvv",
+icecastmountpoint: "u6cbawcdkcxvv",
+idzeno: "u6cbawcdkcxvv",
 displayliveicon: "true",
 displayvisualizericon: "true",
-shoutcastpath: "/stream",
+shoutcastpath: "",
 streamid: "1", 
 streamsuffix: "", 
 radionomyid: "", 
@@ -102,11 +106,13 @@ radionomyapikey: "",
 radiojarid: "",  
 radiocoid: "",
 itunestoken: "1000lIPN",
-metadatatechnic: "", //fallback (usar para zeno)
+metadatatechnic: "/fallback", //fallback (usar para zeno)
+ownmetadataurl: "https://status.rcast.net/200737",
 metadatainterval: "26000", 
 displayliveicon: "true",
 volume: "100",
-debug: "false",
+autoplay: "true",
+debug: "true",
 });
 </script>
 <body style="background-color:#000000;"><div align="center">
