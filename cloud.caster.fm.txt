@@ -1,0 +1,20 @@
+
+primerastereo.ismyradio.com
+
+NOMBRE DEL SERVIDOR:
+sapircast.caster.fm
+
+PUERTO DEL SERVIDOR:
+10113
+
+TASA DE BIITS MÁXIMA
+96Kbps
+
+NOMBRE DE USUARIO DE TRANSMISIÓN:
+source
+
+PUNTO DE MONTAJE:
+/kkq8B
+
+CONTRASEÑA DE TRANSMISIÓN:
+lYcvTRh5ul
